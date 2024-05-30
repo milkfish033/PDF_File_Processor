@@ -1,9 +1,11 @@
 # Pdf_summary
+
 Relative topics: #llamaindex #LLM #python#Flask
 
 What can you do: upload files and type your command. The LLM is supposed to generate relative answers and send it back you. 
 
 ***Before you start:***
+
 (i) ****set up your python virtual envrionment***
 python3 -m venv .venv && source .venv/bin/activate
 
