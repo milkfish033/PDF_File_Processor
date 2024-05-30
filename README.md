@@ -1,5 +1,5 @@
 # Pdf_summary
-***last update: 05/30/2024***
+***Last update: 05/30/2024***
 
 Relative topics: #llamaindex #LLM #python#Flask
 
@@ -12,14 +12,14 @@ https://github.com/milkfish033/pdf_summary/assets/141232455/7740f9ae-bb58-4ee6-8
 
 ***Before you start:***
 
-(i) ****set up your python virtual envrionment***
+(i) ****Set up your python virtual envrionment***
 python3 -m venv .venv && source .venv/bin/activate
 
 (ii)***LlamaIndex setup and install***
 
 https://docs.llamaindex.ai/en/stable/getting_started/installation/
 
-(iii)***customize your own LLM model***
+(iii)***Customize your own LLM model***
 
 I use doubao LLM created by Tiktok: https://www.volcengine.com/product/doubao
 
