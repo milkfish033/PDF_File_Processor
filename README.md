@@ -5,6 +5,11 @@ Relative topics: #llamaindex #LLM #python#Flask
 
 What can you do: upload files and type your command. The LLM is supposed to generate relative answers and send it back you. 
 
+
+https://github.com/milkfish033/pdf_summary/assets/141232455/7740f9ae-bb58-4ee6-8ac3-0f68934d43f4
+
+
+
 ***Before you start:***
 
 (i) ****set up your python virtual envrionment***
