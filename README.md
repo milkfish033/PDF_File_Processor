@@ -20,6 +20,7 @@ I use doubao LLM created by Tiktok: https://www.volcengine.com/product/doubao
 
 (iv)***relative reading materials***
 
+https://flask.palletsprojects.com/en/3.0.x/
 https://docs.llamaindex.ai/en/stable/getting_started/concepts/
 https://docs.llamaindex.ai/en/stable/getting_started/starter_example_local/
 
