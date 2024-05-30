@@ -23,7 +23,7 @@ https://docs.llamaindex.ai/en/stable/getting_started/installation/
 
 I use doubao LLM created by Tiktok: https://www.volcengine.com/product/doubao
 
-(iv)***relative reading materials***
+(iv)***Relative reading materials***
 
 https://flask.palletsprojects.com/en/3.0.x/
 https://docs.llamaindex.ai/en/stable/getting_started/concepts/
