@@ -12,7 +12,7 @@ https://github.com/milkfish033/pdf_summary/assets/141232455/7740f9ae-bb58-4ee6-8
 
 ***Before you start:***
 
-(i) ****Set up your python virtual envrionment***
+(i) ***Set up your python virtual envrionment***
 python3 -m venv .venv && source .venv/bin/activate
 
 (ii)***LlamaIndex setup and install***
