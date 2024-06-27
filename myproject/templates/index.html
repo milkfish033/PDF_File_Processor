@@ -1,17 +1,71 @@
-<html>   
-<head>   
-    <title >upload the file : GFG</title>   
-</head>   
-<body style = "background-color:rgb(207, 198, 198); text-align: center;">   
-  
-    <form action = "/success" method = "post" enctype="multipart/form-data">   
-        <!--enctype="multipart/form-data" is necessary when uploading data-->
-        <input type="file" name="file"/>   <!--create a button here-->
-        <input type = "submit" value="Upload">   <!-- create a button here-->
-    </form>   
-    <form>
-        <textarea style = "text-align:left;" name="user_text" rows="10" cols="50" placeholder="How can I help you..."></textarea>
-    </form>
-  
-</body>   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload the File : GFG</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 20px 0;
+        }
+        form {
+            margin: 20px 0;
+        }
+        input[type="file"] {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        textarea {
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload the File</h1>
+        <hr>
+        <form action="/success" method="post" enctype="multipart/form-data">
+            <input type="file" name="file"/>
+            <textarea name="user_text" rows="10" cols="50" placeholder="How can I help you with the file..."></textarea>
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+</body>
 </html>
