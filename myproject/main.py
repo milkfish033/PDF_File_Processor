@@ -19,6 +19,7 @@ def main():
 def success():
 
 	if request.method == 'POST': 
+		w = request.form['user_text']
 		f = request.files['file'] 
 		#['file']: This part of the code accesses a specific file from the uploaded files dictionary. 
 		#In your case, it's accessing the file uploaded with the name "file." 
@@ -27,7 +28,7 @@ def success():
 		f.save(os.path.join(app.config[save_file], f.filename))
 		filepath = save_file+"/"+f.filename
 		
-		result = pdf_reader.generate([filepath])
+		result = pdf_reader.generate([filepath], w)
 		return render_template("Acknowledgement.html", name = f.filename, r = result) 
 		#variable  name is used later in the Acknowledgement.html# 
 
