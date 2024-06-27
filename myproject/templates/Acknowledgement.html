@@ -1,13 +1,69 @@
-<html> 
-<head> 
-	<title>success</title> 
-</head> 
-  
-<body style = "background-color: cornflowerblue; text-align: center;">
-  
-	<h1 style="background-color:khaki; text-align: center;">File uploaded successfully</h1> 
-	<h1 style = "background-color: khaki;text-align: center;">File Name: {{name}}<h1>
-	<h1 style = "background-color: khaki;text-align: center;">Summary: {{r}}</h1>
-	
-</body> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            background-color: darkgrey;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .result-frame {
+            border: 1px solid #333;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>File uploaded successfully</h1>
+        <div class="result-frame">
+            <table>
+                <tr>
+                    <th>File Name</th>
+                    <td>{{ name }}</td>
+                </tr>
+                <tr>
+                    <th>Summary</th>
+                    <td>{{ r }}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
 </html>
