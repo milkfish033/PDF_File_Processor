@@ -28,7 +28,7 @@ https://github.com/milkfish033/pdf_summary/assets/141232455/402a9372-fb1f-4bbd-a
 
 
 
-***What's needed to be done in the future:***
+🚩***What's needed to be done in the future:***
 
 (i)Allow users to select a specific background. For instance, if a doctor chooses the hospital background, responses will prioritize content relevant to hospital-related topics.
 
@@ -40,6 +40,7 @@ Enable users to select from a range of language models, including options like O
 🌪️***Before you start:***
 
 (i) ***Set up your python virtual envrionment***
+
 python3 -m venv .venv && source .venv/bin/activate
 
 (ii)***LlamaIndex setup and install***
