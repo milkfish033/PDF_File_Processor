@@ -9,7 +9,7 @@
 
 🪐***Relative topics:***
 
-#llamaindex #LLM #python #Flask
+#llamaindex #LLM #Python #Flask
 
 
 
