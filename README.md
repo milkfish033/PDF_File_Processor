@@ -1,5 +1,9 @@
 # PDF_File_Processor 
 
+
+Contact info: mingyu@bu.edu
+
+
 🌍***What does this project do:***
 
 (i)Enable user to upload pdf files and execute relative command.
