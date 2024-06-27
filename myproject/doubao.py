@@ -6,7 +6,7 @@ from volcenginesdkarkruntime import Ark
 
 client = Ark(ak="**********", sk="****************") replace youor own Ark here
 
-def QA(text)->str:
+def QA(text, c)->str:
   
     answer = ""
     stream = client.chat.completions.create(
@@ -14,7 +14,7 @@ def QA(text)->str:
     messages=[
         {
             "role": "user",
-            "content": f"use one sentence to summarize this article: {text}"
+            "content": f"{c}: {text}"
         },
     ],
       
@@ -29,22 +29,4 @@ def QA(text)->str:
         answer += chunk.choices[0].delta.content
     return answer
 
-if __name__ == "__main__":
-    # Streaming:
-    print("----- streaming request -----")
-    stream = client.chat.completions.create(
-        model="*************", #replace your own model here 
-        messages=[
-            {
-                "role": "user",
-                "content": "what coudl you do" #instance question 
-            },
-        ],
-        stream=True,
-        temperature=1,
-        top_p=0.7
-    )
-    for chunk in stream:
-        if not chunk.choices:
-            continue
-        print(chunk.choices[0].delta.content, end="")
+
