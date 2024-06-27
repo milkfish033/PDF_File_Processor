@@ -2,14 +2,14 @@
 
 🌍***What does this project do:***
 
-(i)Enable user to upload pdf files and execute relative command. 
+(i)Enable user to upload pdf files and execute relative command.
 
 (ii) send command to LLM and return the result back in suitabel format 
 
 
 🪐***Relative topics:***
 
-#llamaindex #LLM #Python #Flask
+`#llamaindex #LLM #Python #Flask`
 
 
 
@@ -41,17 +41,17 @@ Enable users to select from a range of language models, including options like O
 
 (i) ***Set up your python virtual envrionment***
 
-python3 -m venv .venv && source .venv/bin/activate
+`python3 -m venv .venv && source .venv/bin/activate`
 
 (ii)***LlamaIndex setup and install***
 
-https://docs.llamaindex.ai/en/stable/getting_started/installation/
+`https://docs.llamaindex.ai/en/stable/getting_started/installation/`
 
 (iii)***Customize your own LLM model***
 
 Language Model used in this project: 
 
-Doubao  created by Tiktok: https://www.volcengine.com/product/doubao
+`Doubao  created by Tiktok: https://www.volcengine.com/product/doubao`
 
 (iv)***Relative reading materials***
 
